@@ -1,3 +1,30 @@
 .header {
+    position: relative;
     display: block;
+    max-height: 95px;
+    height: 100%;
+    width: 100%;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-group {
+            font-weight: 700;
+            &:first-child {
+                padding-right: 110px;
+            }
+            &__title {
+                font-size: 16px;
+                color: $firstred;
+            }
+            &__text {
+                font-size: 24px;
+            }
+        }
+    }
 }

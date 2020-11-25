@@ -1,0 +1,21 @@
+.hero {
+    background: $firstred url(../img/hero-bg.svg)no-repeat;
+    display: flex;
+    justify-content: space-between;
+    background-position: center;
+
+    .section__title {
+       font-size: 50px; 
+       line-height: 61px;
+       margin-bottom: 0;
+       max-width: 500px;
+       width: 100%;
+       span {
+           color: #ffffff;
+       }
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
